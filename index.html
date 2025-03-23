@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>김건호 소개 페이지</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="body-picture">
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="https://media.tenor.com/7baxUrSeFuoAAAAM/kane-%EC%A3%84%EC%86%A1%ED%95%A9%EB%8B%88%EB%8B%A4.gif" alt="인사" width="400px">
+                안녕하세요! 전기전자컴퓨터공학부 22학번 김건호입니다 😆
+            </div>
+            <div class="swiper-slide">
+                저의 기본 정보부터 소개해드릴게요! 😀
+                <ul>
+                    <li>🎂생일: 2002.06.20</li>
+                    <li>🎯MBTI: ISFP</li>
+                    <li>🎸취미: 게임, 여행, 노래방, 베이스치기</li>
+                    <li>⌨️할줄 아는 언어: C++, Python, HTML, CSS</li>
+                    <li>💻풀스택 개발자 지망</li>
+                <br>낯을 많이 가리지만 친해지면 잘 웃고 잘 놀아요! 🤣
+                <br>말 걸어주시는거 좋아해요...! 🥲
+            </div>
+            <div class="swiper-slide">
+                <img src="C:\Users\quidl\OneDrive\바탕 화면\학교\인포팀\소개 페이지\about-me\백령도.jpg" alt="백령도" width="400px">
+                🪖백령도 공군 출신입니다! 
+                <br>🙋‍♂️백령도가 어디인가요?
+                <a href="https://www.google.com/maps/place/%EB%B0%B1%EB%A0%B9%EB%8F%84/data=!4m6!3m5!1s0x357898077faf3867:0x3e2035de421317ab!8m2!3d37.9590027!4d124.6653814!16zL20vMDd4ajA4?hl=ko&entry=ttu&g_ep=EgoyMDI1MDMxOS4yIKXMDSoASAFQAw%3D%3D">보러가기</a>
+            </div>
+            <div class="swiper-slide">
+                <img src="C:\Users\quidl\OneDrive\바탕 화면\학교\인포팀\소개 페이지\about-me\댕댕이.jpg" alt="댕댕이" width="250px">
+                저희 집 댕댕이입니다!🐶 이름은 '레이'
+            </div>
+            <div class="swiper-slide">
+                <div class="social-links">
+                    <div class="social-item">
+                        <img src="https://cdn-icons-png.flaticon.com/512/5968/5968776.png" alt="인스타" width="200px" height="200px">
+                        <a href="https://www.instagram.com/kunho_62/">인스타</a>
+                    </div>
+                    <div class="social-item">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Font_Awesome_5_brands_github.svg/640px-Font_Awesome_5_brands_github.svg.png" alt="깃허브" width="200px" height="200px">
+                        <a href="https://github.com/6QB6">깃허브</a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script>
+        var swiper = new Swiper(".mySwiper",{
+            effect: "cards",
+            grabCursor: true,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            keyboard: {
+                enabled: true, 
+                onlyInViewport: true,
+            },
+        });
+    </script>
+
+</body>
+</html>
